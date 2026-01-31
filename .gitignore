@@ -1,2 +1,6 @@
 /venv
 /clean_data.csv
+# Data files (tracked by DVC)
+/data/raw/ /data/processed/ /data/predictions.csv
+# Model files (tracked by DVC)
+/models/*.pkl
